@@ -1,0 +1,50 @@
+.footer {
+  background: lighten($black, 10%);
+  bottom: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  height: $xl-size;
+  box-shadow: 0px 0px 1000px darken($light-gray, 25%);
+  border-top: 1px solid darken($gunmetal, 30%)
+}
+
+.external-links {
+  color: $off-white;
+  font-weight: lighter;
+  margin: 0 $m-size;
+  text-decoration: none;
+  text-shadow: 1px 1px 5px darken($off-white, 50%);
+}
+
+.external-links:hover {
+  color: lighten($dark-red, 10%);
+  font-weight: bolder;
+  font-style: italic;
+  text-shadow: 1px 1px 5px darken($off-white, 50%);
+  transition: color 100ms ease-in-out,
+              font-weight 100ms ease-in-out,
+              font-weight 100ms ease-in-out;
+}
+
+.internal-link {
+  color: $off-white;
+  margin: 0 $m-size;
+  text-decoration: none;
+  font-weight: lighter;
+  text-shadow: 1px 1px 5px darken($off-white, 50%);
+  transition: color 100ms ease,
+              font-weight 100ms ease;
+}
+
+.internal-link:hover {
+  color: lighten($dark-red, 10%);
+  font-weight: bolder;
+  font-style: italic;
+  text-shadow: 1px 1px 5px darken($off-white, 50%);
+  transition: color 100ms ease-in-out,
+              font-weight 100ms ease-in-out,
+              font-weight 100ms ease-in-out;
+}

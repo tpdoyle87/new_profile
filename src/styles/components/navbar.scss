@@ -1,26 +1,31 @@
 .navbar {
-  display: flex;
-  justify-content: space-between;
   align-items: center;
+  background: lighten($black, 10%);
+  border-bottom: 1px solid darken($gunmetal, 30%);
+  box-shadow: 1px 1px 1000px darken($light-gray, 35%);
+  display: flex;
+  height: 4rem;
+  justify-content: space-between;
   margin: 0;
   padding: $s-size;
-  background: $off-white;
-  border-bottom: 1px solid $light-blue;
-  height: 4rem;
-  box-shadow: inset 0px -1px 5px darken($light-blue, 10%);
 }
 
 .navbar-links a {
-  padding: 0 $s-size;
+  padding: 0 $m-size;
 }
 
 .home-link {
   padding: 0 $s-size;
 }
 
-.navbar a {
+.navbar-link {
+  color: $off-white;
+  font-weight: lighter;
   text-decoration: none;
-  color: $dark-blue;
-  text-shadow: 1px 1px 1px darken($dark-blue, 10%);
-  text-shadow: inset -1px -1px 1px darken($dark-blue, 10%);
+}
+
+.active {
+  color: lighten($dark-red, 5%);
+  font-style: italic;
+  font-weight: bolder;
 }

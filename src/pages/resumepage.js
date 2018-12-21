@@ -7,7 +7,6 @@ export default class ResumePage extends Component {
   render() {
     return (
       <div>
-        <NavBar />
         <h1>Hello from Resume page</h1>
       </div>
     )
