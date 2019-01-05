@@ -1,11 +1,10 @@
 import React, { Component } from 'react'
 
-import NavBar from './components/navbar'
 
 export default class ContactPage extends Component {
   render() {
     return(
-      <div>
+      <div className="content">
         <h1>Hello from contact page</h1>
       </div>
     )

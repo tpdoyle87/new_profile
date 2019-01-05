@@ -1,0 +1,25 @@
+@keyframes  colorShift {
+
+  from {
+    background: $color-shift
+  }
+
+  to {
+    background: darken($color-shift, 10%)
+  }
+}
+
+@keyframes pulse {
+  from {
+    opacity: 0;
+    bottom: 100px;
+  }
+  50% {
+    opacity: .8;
+    bottom: 75px
+  }
+  to {
+    opacity: 0;
+    bottom: 50px;
+  }
+}

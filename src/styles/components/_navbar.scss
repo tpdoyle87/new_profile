@@ -1,0 +1,57 @@
+.navbar {
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  height: 4rem;
+  margin: $s-size;
+  padding: 0;
+  position: sticky !important;
+  top: 0px !important;
+  z-index: 10;
+  @media (min-width: $desktop-breakpoint) {
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+}
+
+.navbar-links a {
+  margin: 0 $m-size;
+  border-bottom: 2px solid $gunmetal;
+
+}
+
+.home-link {
+  margin: 0 $s-size;
+  padding-bottom: .5rem;
+}
+
+.navbar-link {
+  color: white;
+  font-weight: lighter;
+  text-decoration: none;
+  padding-bottom: .5rem;
+  &:hover {
+    border-bottom: 2px solid white;
+    transition: color .2s ease;
+  }
+}
+
+.active {
+  color: white;
+  border-bottom: 2px solid white !important;
+  font-weight: bolder;
+}
+
+.contact-button {
+  border: 2px solid $gunmetal;
+  border-radius: 25px;
+  padding: $s-size $m-size;
+  background-color: $gunmetal;
+  &:hover {
+    background-color: lighten($gunmetal, 6%);
+    border-bottom: 2px solid $gunmetal;
+    transition: background-color .3s ease;
+  }
+}
+

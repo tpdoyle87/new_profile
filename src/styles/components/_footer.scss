@@ -1,0 +1,24 @@
+.footer {
+  align-items: center;
+  background: transparent;
+  display: flex;
+  height: $xl-size;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.links {
+  color: lighten($black, 50%);
+  font-weight: lighter;
+  margin: 0 $m-size;
+  text-decoration: none;
+  text-shadow: 1px 1px 5px darken($off-white, 50%);
+  transition: color 200ms ease,
+              font-weight 200ms ease;
+  &:hover {
+    color: white;
+    border-bottom: 2px solid white;
+    transition: color 200ms ease,
+                font-weight 200ms ease;
+  }
+}

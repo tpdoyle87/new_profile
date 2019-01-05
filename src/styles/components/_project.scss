@@ -1,0 +1,21 @@
+.project {
+  margin: 2rem auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  color: white;
+
+  @media (min-width: $desktop-breakpoint) {
+    width: 75%
+  }
+}
+
+.project:first-of-type {
+  margin-top: 5rem;
+}
+
+.upper-card {
+ height: 35rem;
+ background-size: 100% 100%;
+}
+
