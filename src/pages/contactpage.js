@@ -4,7 +4,7 @@ import React, { Component } from 'react'
 export default class ContactPage extends Component {
   render() {
     return(
-      <div className="content">
+      <div className="content-container">
         <h1>Hello from contact page</h1>
       </div>
     )

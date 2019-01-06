@@ -1,10 +1,16 @@
 .footer {
-  align-items: center;
   background: transparent;
   display: flex;
+  flex-direction: column;
+  align-items: center;
   height: $xl-size;
-  justify-content: space-between;
   width: 100%;
+  @media (min-width: $desktop-breakpoint) {
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+
+  }
 }
 
 .links {
