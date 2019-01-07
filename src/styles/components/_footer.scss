@@ -5,6 +5,7 @@
   align-items: center;
   height: $xl-size;
   width: 100%;
+  padding-bottom: 8rem;
   @media (min-width: $desktop-breakpoint) {
     align-items: center;
     flex-direction: row;
@@ -14,10 +15,12 @@
 }
 
 .links {
-  color: lighten($black, 50%);
+  color: white;
   font-weight: lighter;
   margin: 0 $m-size;
   text-decoration: none;
+  padding-bottom: $s-size;
+  border-bottom: 2px solid $gunmetal;
   text-shadow: 1px 1px 5px darken($off-white, 50%);
   transition: color 200ms ease,
               font-weight 200ms ease;
@@ -27,4 +30,8 @@
     transition: color 200ms ease,
                 font-weight 200ms ease;
   }
+}
+
+.footer {
+  color: white;
 }

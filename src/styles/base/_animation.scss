@@ -1,15 +1,19 @@
 @keyframes  colorShift {
 
   from {
-    background: $color-shift
+    color: white;
+  }
+
+  50% {
+    color: darken(white, 25%);
   }
 
   to {
-    background: darken($color-shift, 10%)
+    color: white;
   }
 }
 
-@keyframes pulse {
+@keyframes pulse-and-slide {
   from {
     opacity: 0;
     bottom: 100px;

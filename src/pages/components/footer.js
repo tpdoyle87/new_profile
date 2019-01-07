@@ -24,7 +24,7 @@ const Footer = () => {
           </a>
         </div>
         <div>
-          <p>{'\u00A9'} {moment().format('YYYY')} Thomas Doyle-Engler</p>
+          <p className="copyright">{'\u00A9'} {moment().format('YYYY')} Thomas Doyle-Engler</p>
         </div>
       </div>
     </div>

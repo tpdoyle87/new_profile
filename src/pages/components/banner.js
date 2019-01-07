@@ -7,8 +7,7 @@ class Banner extends React.Component {
       <div className="content-container">
         <div className="large-header">
           <div className="main-title">
-            <h5>Full stack developer</h5>
-            <p className="thin">Devise {'\u2022'} Develop {'\u2022'} Deploy</p>
+            <p className='thin'>Devise {'\u2022'} Develop {'\u2022'} Deploy</p>
             <Link className="contact-button--secondary" to="/contact">Contact Me</Link>
           </div>
           <i className="fas fa-angle-double-down fa-2x"></i>

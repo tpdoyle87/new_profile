@@ -1,0 +1,40 @@
+.experience-container {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 2rem;
+  margin-left: 1rem;
+  @media (min-width: $desktop-breakpoint) {
+    margin: 1rem 0 0 45rem;
+    border-bottom: 1px solid $gunmetal;
+
+  }
+}
+
+.experience-container-second {
+    display: flex;
+  justify-content: space-between;
+  padding-right: 2rem;
+  margin-left: 1rem;
+  @media (min-width: $desktop-breakpoint) {
+    margin: 1rem 0 0 45rem;
+  }
+}
+
+.experience-inner-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.title {
+  margin: $s-size 0;
+}
+
+.company {
+  margin: 0;
+}
+
+.time {
+  margin: 0;
+}
+
