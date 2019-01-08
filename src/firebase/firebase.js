@@ -1,4 +1,5 @@
-import * as firebase from "firebase"
+import * as firebase from "firebase/app"
+import 'firebase/database'
 
 var config = {
   apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
