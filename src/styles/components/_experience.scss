@@ -28,13 +28,22 @@
 
 .title {
   margin: $s-size 0;
+  @media (min-width: $desktop-breakpoint) {
+    font-size: 1.3rem;
+  }
 }
 
 .company {
   margin: 0;
+  @media (min-width: $desktop-breakpoint) {
+    font-size: 1.3rem;
+  }
 }
 
 .time {
   margin: 0;
+  @media (min-width: $desktop-breakpoint) {
+    font-size: 1.3rem;
+  }
 }
 
