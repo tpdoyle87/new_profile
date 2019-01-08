@@ -13,8 +13,7 @@
 .experience-container-second {
     display: flex;
   justify-content: space-between;
-  padding-right: 2rem;
-  margin-left: 1rem;
+  margin: 0 1rem 0 1rem;
   @media (min-width: $desktop-breakpoint) {
     margin: 1rem 0 0 45rem;
   }
