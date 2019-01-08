@@ -26,6 +26,7 @@
   background-color: lighten(black, 15%);
   border: none;
   color: white;
+  height: 4rem;
   &:focus {
     background-color: lighten(black, 15%);
     color: white
@@ -38,12 +39,19 @@
   margin-top: .3rem;
   background-color: lighten(black, 15%);
   color: white;
+  border: none;
 }
 
 .contact-button-submit {
   color: white;
   background-color: $gunmetal;
+  height: 4rem;
   border-radius: 3px;
   padding: $s-size $m-size;
   margin: 1rem 0 0 0;
+  border: none;
+  @media (min-width: $desktop-breakpoint) {
+    width: 50%;
+    margin: 1rem auto 0 auto;
+  }
 }

@@ -1,6 +1,8 @@
 .footer {
   background: transparent;
+  color: white;
   display: flex;
+  font-size: 2rem;
   flex-direction: column;
   align-items: center;
   height: $xl-size;
@@ -30,8 +32,4 @@
     transition: color 200ms ease,
                 font-weight 200ms ease;
   }
-}
-
-.footer {
-  color: white;
 }

@@ -98,7 +98,7 @@ class ContactForm extends React.Component {
               value={this.state.message}
             />
           </div>
-          <div>
+          <div className='inputs'>
             <button className="contact-button-submit">Submit</button>
           </div>
         </form>
