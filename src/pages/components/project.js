@@ -1,7 +1,11 @@
 import React from 'react'
+import WOW from 'wowjs';
+
 
  class Project extends React.Component {
-
+  componentDidMount = () => {
+    new WOW.WOW().init()
+  }
   render() {
     return (
       <div className="content-container">
