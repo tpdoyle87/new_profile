@@ -1,6 +1,5 @@
 import React from 'react'
 import database  from '../../firebase/firebase'
-import sendEmailConfirmation from "../../functions/index"
 
 
 class ContactForm extends React.Component {
@@ -51,7 +50,6 @@ class ContactForm extends React.Component {
           message: "",
           saved: "Your message is on its way!"
         }))
-        sendEmailConfirmation
       })
     }
 

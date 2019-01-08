@@ -16,21 +16,16 @@ const mailTransport = nodemailer.createTransport({
 });
 
 // Sends an email confirmation when a user changes his mailing list subscription.
-exports.sendEmailConfirmation = functions.database.ref('/contacts').onCreate((change) => {
-  const snapshot = change.after;
+exports.sendEmailConfirmation = functions.database.ref('contacts/{pushID}').onWrite((change) => {
+  const snapshot = change.after
   const val = snapshot.val();
-
   const mailOptions = {
-    from: 'tdoyleengler.com" <noreply@firebase.com>',
+    from: 'gmailEmail',
     to: gmailEmail,
   };
-
-  const subscribed = val.subscribedToMailingList;
-
   // Building Email message.
-  mailOptions.subject = "New contact form from your portfolio"
-  mailOptions.text = val
-
+  mailOptions.subject = `New contact form from your portfolio - ${val.name} - ${val.email}`
+  mailOptions.text = `${val.message}`
   return mailTransport.sendMail(mailOptions)
     .then(() => console.log("new contact form submission"))
     .catch((error) => console.error('There was an error while sending the email:', error));
