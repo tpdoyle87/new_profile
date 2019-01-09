@@ -46,6 +46,9 @@
   position: absolute;
   color: white;
   bottom: 50px;
-  left: 49%;
+  left: 48%;
   animation: pulse-and-slide 3.5s infinite ease 2s;
+  @media (min-width: $desktop-breakpoint) {
+    left: 50%
+  }
 }
