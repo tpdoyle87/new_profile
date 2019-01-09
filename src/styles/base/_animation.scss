@@ -16,14 +16,14 @@
 @keyframes pulse-and-slide {
   from {
     opacity: 0;
-    bottom: 100px;
+    bottom: 75px;
   }
   50% {
     opacity: .8;
-    bottom: 75px
+    bottom: 50px
   }
   to {
     opacity: 0;
-    bottom: 50px;
+    bottom: 25px;
   }
 }
