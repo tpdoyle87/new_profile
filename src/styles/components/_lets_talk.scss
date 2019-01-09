@@ -1,0 +1,23 @@
+.invisible {
+  display: none;
+  @media (min-width: $desktop-breakpoint) {
+    display: block;
+    margin-top: 5rem;
+  }
+}
+
+.lets-talk {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.chat-text {
+  @media (min-width: $desktop-breakpoint) {
+    margin-left: -26.3rem;
+  }
+  a {
+    font-size: 1.6rem;
+    margin: 0;
+  }
+}

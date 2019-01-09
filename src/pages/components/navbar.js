@@ -32,7 +32,6 @@ export default class NavBar extends Component {
             <Link
               to="/contact"
               className="navbar-link contact-button"
-
             >
               Contact Me
             </Link>
