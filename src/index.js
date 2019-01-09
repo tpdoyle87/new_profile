@@ -6,6 +6,13 @@ import 'animate.css'
 
 import './styles/styles.scss';
 import Router from './routers/Router'
+import HttpsRedirect from 'react-https-redirect'
+
+const HttpsApp = () => (
+  <HttpsRedirect>
+    <Router />
+  </HttpsRedirect>
+)
 
 
-ReactDOM.render(<Router />, document.getElementById('root'));
+ReactDOM.render(<HttpsApp />, document.getElementById('root'));
