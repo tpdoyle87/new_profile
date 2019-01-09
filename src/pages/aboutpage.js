@@ -27,15 +27,14 @@ export default class AboutPage extends Component {
         <SectionIntro className="section-intro" text="Personal" />
         <div className="content-container">
           <Section
+            text="I became a father in 2015 and she has been the kick that really spurred me to better myself and get away from all the relentless travel I had to do for work. Raising my daughter and helping her to discover the world and teach her how to live has been amazing and has humbled me in so many ways."
+          />
+          <Section
             text="When i'm not working I like to spend my time doing a variety of different activities. I enjoy skiing and snowboarding, hiking, and searching out new experiences."
           />
           <Section
             text="One thing i find i'm always doing is learning, I can't stop trying to improve myself. I seem to have some compulsion to understand how everything works and to learn something new everyday."
           />
-          <Section
-            text="I became a father in 2015 and she has been the kick that really spurred me to better myself and get away from all the relentless travel I had to do for work. Raising my daughter and helping her to discover the world and teach her how to live has been amazing and has humbled me in so many ways."
-          />
-
         </div>
         <SectionIntro className="section-intro" text="Experience" />
         <div className="content-container">
